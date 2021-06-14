@@ -1,0 +1,234 @@
+/*Fonts for headings text*/
+h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+
+h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: left;
+    color: black;
+    
+}
+h3.Lab{
+    font-family: 'Rubik', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+
+
+}
+h4{
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    color: black;  
+}
+h5{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    color:black;
+}
+h6{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    padding-right:100px ;
+    font-weight: 500;
+    text-align: center;
+    color: black;  
+    
+}
+
+/* Fonts Paragraph Text*/
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;   
+}
+p.Hero{
+    font-family: 'Open Sans',sans-serif;
+    font: 24px;
+    text-align: center;
+    color: white;
+    opacity: 100%;
+}
+p.intro{
+    font-family: 'Open Sans',sans-serif;
+    font: 24px;
+    text-align: left;
+    color: white;
+    
+
+}
+p.Copyright{
+    font-size: 18px;
+}
+p.Donation{
+   
+    font-size: 24px;
+    font-weight: medium;
+    color: white;
+   
+}
+p.Join{
+    font-size: 24px;
+    font-weight: medium;
+
+    color: white;
+}
+p.Upcoming-Events{
+    font-size: 24px;
+    font-weight: medium;
+    text-align: left;
+    color: black;
+}
+
+/*Anchor Tag styling*/
+a.facebook{
+    float: right;
+}
+
+a.inactive{
+font-family: 'Rubik', sans-serif;
+font-size: 24;
+font-weight: 500;
+text-align: center;
+text-decoration: none;
+padding: 14px 100px;
+color: black;
+}
+
+/*Button tag styling*/
+button{
+    background-color: #608791;
+    border-radius: 18px;
+    border: none;
+    padding: 20px 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: medium;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+button.Join{
+    background-color: #608791;
+    border-radius: 18px;
+    border: none;
+    padding: 20px 50px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: medium;
+    color: white;
+    display: inline-block;
+
+
+}
+
+/*Positioning on page* and colors*/
+header{
+    background-color: #A64044;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+}
+.heroimg{
+    width: 100%;
+    z-index: 0;
+    margin-left: auto;
+   margin-right: auto;
+}
+.mission{
+    position: absolute;
+    bottom: -320px;
+    right: 150px;
+    width: 80%;
+    height: inherit;
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+}
+
+.logo{
+    width: 23%;
+    padding: 1%;
+}
+nav.navigation{
+    text-align: center;
+    background-color: #DAE2E4;
+    overflow: hidden;  
+    width: 100%;
+
+}
+
+
+ul{
+    overflow: hidden;
+
+}
+h6{
+    display: inline;
+}
+
+section.Labs{
+    text-align: left;
+    background-color: white;
+}
+Section.Join{
+    text-align: center;
+    background-color: #A64044;
+    height: 487px;
+}
+section.Upcoming-Events{
+    background-color: white;
+}
+div.navigation{
+    width: 100%;
+    background-color: #DAE2E4;
+    padding: 20px;
+}
+div.Donation{
+    margin-top: -40px;
+    position: relative;
+    background-color:#A64044 ;
+    height:487px;
+}
+div.Labs{
+    text-align: center;
+    
+}
+img.left{
+    float: left;
+}
+img.right{
+    vertical-align: top;
+    float: right;
+}
+
+
+footer{
+    margin-top: 100px;
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+    margin-bottom: 0 auto;
+    background-color: #DAE2E4;
+}
+
+
