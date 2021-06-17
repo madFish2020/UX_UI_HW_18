@@ -45,6 +45,7 @@ a{
 .container1{
     height: 1024px;
     background-image: url('../images/lab_hero.png');
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     margin: 0 auto;  
@@ -53,6 +54,8 @@ a{
     margin-top: 456px;
     background-color:rgb(0,0,0, 0.7);
     color: white;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 h1{
     font-family: 'Rubik', sans-serif;
