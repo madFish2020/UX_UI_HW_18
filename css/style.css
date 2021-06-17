@@ -16,8 +16,8 @@
     align-items: center;
     width: 100%;
 }
-a{
-    color: black;
+.top{
+   color: black;
     padding: 70px;
     font-size: 24px;
     font-weight: 500;
@@ -48,7 +48,7 @@ a{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    margin: 0 auto;  
+    
 }
 .text{
     margin-top: 456px;
@@ -70,54 +70,32 @@ p{
     text-align: center;
 }
 .container2{
+    background-color: #A64044;
     
-    background-color: #A64044;
 }
-   
-
-.container3{
-        background-color: white;
-}
-.container4{
-    background-color: #A64044;
-}
-.dog{
-    display:flex;
-    flex-direction: row;
-    align-items: flex-end;
-}
-.container4{
-    margin-top: 20px;
-    background-color: #A64044;
-}
-
-
-/*Fonts for headings text*/
-
 h2{
     font-family: 'Rubik', sans-serif;
     font-size: 38px;
     font-weight: 500;
     text-align: center;
-    color: white;
 }
 
-h3{
-    font-family: 'Rubik', sans-serif;
-    font-size: 64px;
-    font-weight: 400;
-    text-align: left;
-    color: black;
-    
+.donate{
+   align-self: center;
+    text-align: center;
+    color:white;
+
+} 
+.container3{
+        background-color: white;
 }
+
 h3.Lab{
     font-family: 'Rubik', sans-serif;
     font-size: 64px;
     font-weight: 400;
     text-align: center;
     color: black;
-
-
 }
 h4{
     font-family: 'Rubik', sans-serif;
@@ -125,33 +103,23 @@ h4{
     font-weight: 500;
     color: black;  
 }
+.container4{
+    background-color: #A64044;
+    color: white;
+}
+h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    text-align: left;
+    color: black;
+}
 h5{
     font-family: 'Rubik', sans-serif;
     font-size: 24px;
     font-weight: 500;
     text-align: left;
     color:black;
-}
-h6{
-    font-family: 'Rubik', sans-serif;
-    font-size: 18px;
-    padding-right:100px ;
-    font-weight: 500;
-    text-align: center;
-    color: black;  
-    
-}
-
-/* Fonts Paragraph Text*/
-button{
-    background-color: #608791;
-    border-radius: 18px;
-    border: none;
-    padding: 20px 50px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: medium;
-    color: white;
 }
 
 footer{
@@ -161,6 +129,14 @@ footer{
     text-align: center;
     margin-bottom: 0 auto;
     background-color: #DAE2E4;
+}
+h6{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    padding-right:100px ;
+    font-weight: 500;
+    text-align: center;
+    color: black;  
 }
 @media only screen and (max-width: 600){
     .flexCotainer{
