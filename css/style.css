@@ -34,6 +34,46 @@ a{
     flex-direction: column;
     margin: 0 auto;
 }
+.container1, .container2, .container3, .container4{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.container1{
+    margin-top: 20px;
+    background-image: url('../images/lab_hero.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+
+
+    
+}
+.container2{
+    margin-top: 20px;
+    background-color: #A64044;
+}
+.container3{
+        margin-top: 20px;
+        background-color: white;
+}
+.container4{
+    margin-top: 20px;
+    background-color: #A64044;
+}
+.dog{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.container4{
+    margin-top: 20px;
+    background-color: #A64044;
+}
+
 
 /*Fonts for headings text*/
 h1{
@@ -121,32 +161,6 @@ button{
     font-size: 24px;
     font-weight: medium;
     color: white;
-    display: flex;
-    margin: 0 auto;
-}
-button.Join{
-    background-color: #608791;
-    border-radius: 18px;
-    border: none;
-    padding: 20px 50px;
-    text-align: center;
-    font-size: 24px;
-    font-weight: medium;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-
-}
-
-
-
-
-.redBlock{
-    background-color: #A64044;
-    padding-bottom: 228px;
-    height: 260px;
-    
 }
 
 footer{
