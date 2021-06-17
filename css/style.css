@@ -1,10 +1,47 @@
+/*Navigation styles*/
+.logo{
+    background-color: #A64044;
+    height:121px;
+    background-position: left;
+}
+.nav{
+    display: flex;
+    background-color: #DAE2E4;
+    padding: 20px;
+}
+.center{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+a{
+    color: black;
+    padding: 70px;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+
+}
+
+/*Flex Container Styles*/
+.flexCotainer{
+    display: flex;
+    height: 1200px;
+    width: 800px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
 /*Fonts for headings text*/
 h1{
     font-family: 'Rubik', sans-serif;
     font-size: 64px;
     font-weight: 700;
     text-align: center;
-    color: black;
+    color: white ;
 }
 
 h2{
@@ -61,7 +98,7 @@ p{
     font-size: 24px;
     text-align: center;   
 }
-p.textbox{
+.textbox{
     font-family: 'Open Sans', sans-serif;
     font: 24px;
     text-align: center;
@@ -101,15 +138,9 @@ button.Join{
     margin: 0 auto;
 
 }
-.flexCotainer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.flexChild{
-   flex: 1;
-   width: 100%;
-}
+
+
+
 
 .redBlock{
     background-color: #A64044;
