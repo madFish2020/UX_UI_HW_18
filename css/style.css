@@ -43,25 +43,39 @@ a{
     margin-bottom: 20px;
 }
 .container1{
-    margin-top: 20px;
+    height: 1024px;
     background-image: url('../images/lab_hero.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-color: black;
+    margin: 0 auto;  
+}
+.text{
+    margin-top: 456px;
+    background-color:rgb(0,0,0, 0.7);
+    color: white;
+}
+h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
 
-
-    
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    text-align: center;
 }
 .container2{
-    margin-top: 20px;
+    
     background-color: #A64044;
 }
+   
+
 .container3{
-        margin-top: 20px;
         background-color: white;
 }
 .container4{
-    margin-top: 20px;
     background-color: #A64044;
 }
 .dog{
@@ -76,13 +90,6 @@ a{
 
 
 /*Fonts for headings text*/
-h1{
-    font-family: 'Rubik', sans-serif;
-    font-size: 64px;
-    font-weight: 700;
-    text-align: center;
-    color: white ;
-}
 
 h2{
     font-family: 'Rubik', sans-serif;
@@ -133,25 +140,6 @@ h6{
 }
 
 /* Fonts Paragraph Text*/
-p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
-    text-align: center;   
-}
-.textbox{
-    font-family: 'Open Sans', sans-serif;
-    font: 24px;
-    text-align: center;
-    color: white;
-    background-color: black;
-}
-.whitetxt{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 24px;
-    text-align: center; 
-    color: white;
-    
-}
 button{
     background-color: #608791;
     border-radius: 18px;
