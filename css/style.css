@@ -1,4 +1,4 @@
-/*Navigation styles*/
+/*Logo and Naviagation styles*/
 .logo{
     background-color: #A64044;
     height:121px;
@@ -158,6 +158,7 @@ h5{
     height: 280px;
     align-items: flex-start;
 }
+/*Footer Navigation styling by section*/
 .section1, .section2, .section3, .section4, .section5{
 
     height: 100%;
